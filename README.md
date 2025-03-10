@@ -1,4 +1,3 @@
-
 ## 📋 Overview
 
 BlueMedix is a modern, responsive admin dashboard built with React and Bootstrap. It provides a comprehensive interface for managing users, products, and other data with an intuitive user experience and visually appealing design.
@@ -160,16 +159,16 @@ The dashboard provides visual analytics with dynamic data rendering:
 ## 📱 Screenshots
 
 ### Dashboard
-![Dashboard](assets/dashboard.png)
+![Dashboard](./assets/dashboard.png)
 
 ### User Management
-![User Management](assets/users.png)
+![User Management](./assets/users.png)
 
 ### Product Management
-![Product Management](assets/products.png)
+![Product Management](./assets/products.png)
 
 ### Form Components
-![Forms](assets/forms.png)
+![Forms](./assets/forms.png)
 
 ## 🔮 Future Improvements
 
