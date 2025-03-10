@@ -4,7 +4,7 @@ BlueMedix is a modern, responsive admin dashboard built with React and Bootstrap
 
 The application features dynamic theming, real-time notifications, and a fully responsive layout that works seamlessly across desktop and mobile devices. It includes CRUD operations for user and product management with form validation and state persistence.
 
-## ✨ Features
+## ✨ Features implemented in 4 hours
 
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices
 - **Multiple Themes**: Choose between light, dark, blue, and transparent themes
@@ -159,16 +159,26 @@ The dashboard provides visual analytics with dynamic data rendering:
 ## 📱 Screenshots
 
 ### Dashboard
-![Dashboard](./assets/dashboard.png)
+![Screenshot (247)](https://github.com/user-attachments/assets/4472f86f-61ac-4ba0-a5ca-024e5eb2986c)
 
-### User Management
-![User Management](./assets/users.png)
+### User Page
+![Screenshot (244)](https://github.com/user-attachments/assets/cf27dd8a-fe6f-4204-b4cf-707be65cc2a0)
 
-### Product Management
-![Product Management](./assets/products.png)
+
+### Product Page
+![Screenshot (243)](https://github.com/user-attachments/assets/a3ba7aeb-52c6-4087-8c82-b7e3b49b0911)
+
 
 ### Form Components
-![Forms](./assets/forms.png)
+![Screenshot (246)](https://github.com/user-attachments/assets/9af09159-cda2-4344-9320-ee8c63eca222)
+
+### Edit Form
+
+
+![Screenshot (248)](https://github.com/user-attachments/assets/d796874f-7273-487b-88ca-496a3d6da082)
+
+![Screenshot (249)](https://github.com/user-attachments/assets/9aa964f7-65b8-4c24-a634-d9fe4406aa29)
+
 
 ## 🔮 Future Improvements
 
