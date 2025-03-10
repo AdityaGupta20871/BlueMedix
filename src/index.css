@@ -1,0 +1,218 @@
+/* Import Bootstrap styles */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Custom styles can go here */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #212529;
+  overflow-x: hidden;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Glassmorphism Navbar */
+.navbar-glass {
+  background: rgba(255, 255, 255, 0.8) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05) !important;
+  border-radius: 0 0 16px 16px;
+  z-index: 1040;
+}
+
+/* Custom Offcanvas */
+.offcanvas-sidebar {
+  width: 280px !important;
+  border-radius: 0 16px 16px 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Desktop sidebar (hidden on mobile) */
+.sidebar-desktop {
+  width: 280px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+  background-color: #212529;
+  transition: all 0.3s ease;
+  z-index: 1030;
+  border-radius: 0 16px 16px 0;
+}
+
+/* Main content area */
+.main-content {
+  margin-left: 0;
+}
+
+@media (min-width: 992px) {
+  .main-content {
+    margin-left: 280px;
+  }
+}
+
+/* Transitions */
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Custom card styles */
+.card {
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  border-bottom: none;
+  background-color: transparent;
+}
+
+/* Rounded elements */
+.rounded-card {
+  border-radius: 12px;
+}
+
+.rounded-button {
+  border-radius: 8px;
+}
+
+/* Product card image container */
+.product-img-container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #f8f9fa;
+  transition: all 0.3s ease;
+}
+
+.product-img {
+  max-height: 180px;
+  max-width: 100%;
+  object-fit: contain;
+  transition: all 0.3s ease;
+}
+
+.product-card:hover .product-img {
+  transform: scale(1.05);
+}
+
+/* Status badges */
+.badge-subtle-success {
+  background-color: rgba(25, 135, 84, 0.1);
+  color: #198754;
+  padding: 0.35em 0.65em;
+  border-radius: 50rem;
+}
+
+.badge-subtle-primary {
+  background-color: rgba(13, 110, 253, 0.1);
+  color: #0d6efd;
+  padding: 0.35em 0.65em;
+  border-radius: 50rem;
+}
+
+/* Avatar placeholder */
+.avatar-initials {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d6efd;
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive font sizes */
+@media (max-width: 576px) {
+  .display-1 {
+    font-size: 4rem;
+  }
+  
+  h1, .h1 {
+    font-size: 1.8rem;
+  }
+  
+  h2, .h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Custom sidebar link active state */
+.sidebar-link {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.sidebar-link.active {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white !important;
+}
+
+.sidebar-link.active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background-color: #0d6efd;
+  border-radius: 0 4px 4px 0;
+}
+
+/* Button animations */
+.btn {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Form control styles */
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Table styles */
+.table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.table th {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+}
+
+/* Pagination styles */
+.pagination .page-link {
+  border-radius: 8px;
+  margin: 0 2px;
+}
